@@ -1,1 +1,7 @@
 *.swp
+latex/*.aux
+latex/*.idx
+latex/*.log
+latex/*.out
+latex/*.pdf
+latex/*.toc
