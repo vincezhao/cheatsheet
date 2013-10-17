@@ -1,4 +1,4 @@
-\documentclass[letterpaper]{article}
+\documentclass[letterpaper,landscape]{article}
 \usepackage{listings,color,enumitem,makeidx,multicol}
 \usepackage[bookmarks]{hyperref}
 \usepackage[margin=0.2in]{geometry}
@@ -51,16 +51,18 @@
 
 % Table of Contents spacing:
 % http://www.latex-community.org/forum/viewtopic.php?f=5&t=4628
-\begin{multicols}{2}
+\begin{multicols}{3}
     \tableofcontents
 \end{multicols}
+\clearpage
 
 % Index is used for creating bookmarks, using package hyperref
-\index{Convex Hull Algorithm}
-\section{Convex Hull Algorithm}
-This is a test.
+\index{Makefile}
+\section{Makefile}
+\begin{multicols}{3}
+    \lstinputlisting[language=c]{../src/0.Makefile}
+\end{multicols}
 
-\clearpage
 
 \index{Some other algorithm}
 \section{Some other algorithm}
