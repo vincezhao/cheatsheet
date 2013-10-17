@@ -1,3 +1,3 @@
 syntax on
-set background=dark " may need
+set background=dark
 set tabstop=4
