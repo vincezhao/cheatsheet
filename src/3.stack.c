@@ -5,4 +5,4 @@ int ps = 0;
 s[ps++] = data;
 
 /* pop */
-data = s[ps--];
+data = s[--ps];
