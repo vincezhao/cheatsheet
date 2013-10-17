@@ -1,4 +1,4 @@
-TYPE s[SIZE + 1], data;
+TYPE s[SIZE], data;
 int ps = 0;
 
 /* push */
