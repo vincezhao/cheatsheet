@@ -1,8 +1,8 @@
-TYPE stack[SIZE + 1];
+TYPE s[SIZE + 1], data;
 int ps = 0;
 
 /* push */
-stack[ps++] = data;
+s[ps++] = data;
 
 /* pop */
-data = stack[ps--];
+data = s[ps--];
